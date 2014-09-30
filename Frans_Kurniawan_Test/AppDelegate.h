@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewController.h"
+
+#define AppDel ((AppDelegate *)[[UIApplication sharedApplication] delegate])
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (nonatomic) BOOL fromUpdate;
+
+@property (strong, nonatomic) ViewController *vC;
 
 @end

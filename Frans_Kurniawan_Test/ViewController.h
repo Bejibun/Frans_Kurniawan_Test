@@ -10,4 +10,7 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)createProductTapped:(id)sender;
+- (IBAction)showProductTapped:(id)sender;
+
 @end
