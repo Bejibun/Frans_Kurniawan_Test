@@ -19,4 +19,6 @@ Table View:
 - Tap on the Image to show the fullscreen size of the image.
 - Select the cell to either delete or update the cell.
 
+
+
 - Frans Kurniawan -
